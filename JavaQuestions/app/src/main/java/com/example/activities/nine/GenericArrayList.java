@@ -3,7 +3,7 @@ package com.example.activities.nine;
 //In this class create a generic implementation of an arraylist that we learned about in training
 //Use Generics to allow any type of object to be stored in the list
 public class GenericArrayList{
-
+/*
     //Remember that Arraylists are array backed
     //The default starting size of the internal array is 10, and it increases by 50% each time it expands
     //Example: Starting 10 -> 15 -> 23 -> 35 (rounded the decimal numbers up)
@@ -27,5 +27,5 @@ public class GenericArrayList{
     public T get(int i){
         return T;
     }
-
+*/
 }

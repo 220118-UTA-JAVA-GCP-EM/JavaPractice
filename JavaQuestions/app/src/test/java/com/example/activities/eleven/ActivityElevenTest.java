@@ -7,12 +7,12 @@ import java.util.Collections;
 import java.util.TreeSet;
 
 import static org.junit.Assert.assertEquals;
-
+/*
 import com.example.activities.six.*;
 import com.example.activities.eleven.*;
-
+ */
+/*
 public class ActivityElevenTest {
-
     @Test
     public void premiumCustomerComparable(){
 
@@ -44,5 +44,5 @@ public class ActivityElevenTest {
         assertEquals(7, customArr[0].getYears());
 
     }
-
 }
+*/

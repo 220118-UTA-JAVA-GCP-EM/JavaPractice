@@ -5,10 +5,10 @@ public class StringsActivity {
     //In this activity you will get your hands on some string methods
     public String replaceAllSpaces(String input) {
         //Using the .replaceAll() method, replace all the spaces in the input text with '-'
-
+        String noSpaceString = input.replaceAll(" ", "-");
 
         //This should be modified to return the correct string
-        return "";
+        return noSpaceString;
     }
 
     public boolean containsWord(String input, String word) {
