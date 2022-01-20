@@ -1,0 +1,11 @@
+
+c
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ŞİÖøÿÿÿÿ
+X
+java:S1854"=Remove this useless assignment to local variable "lowerWord".(ŞÎ³¹şÿÿÿÿ
+I
+java:S1481".Remove this unused "lowerWord" local variable.(ŞÎ³¹şÿÿÿÿ
+_
+java:S1854!"=Remove this useless assignment to local variable "numberArr".(¼á¨Åúÿÿÿÿ8›šÄÌç/
+€
+java:S1488"eImmediately return this expression instead of assigning it to the temporary variable "noSpaceString".(ŞİÖøÿÿÿÿ

@@ -1,5 +1,6 @@
 package com.example.activities.three;
 
+import com.example.activities.three.WrapperActivity;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
