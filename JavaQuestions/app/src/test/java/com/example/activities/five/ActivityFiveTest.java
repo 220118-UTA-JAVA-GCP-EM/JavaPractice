@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 //Uncomment the test class to run the test for this activity
-/*
+
 public class ActivityFiveTest {
 
     public ArraysActivity aa = new ArraysActivity();
@@ -55,8 +55,6 @@ public class ActivityFiveTest {
         double avg = aa.arrayAverage(arr);
         assertEquals(21.875, avg, 0.01);
     }
-
 }
 
 
- */

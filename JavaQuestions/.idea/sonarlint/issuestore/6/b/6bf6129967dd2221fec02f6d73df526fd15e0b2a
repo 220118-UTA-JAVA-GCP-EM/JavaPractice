@@ -1,0 +1,7 @@
+
+^
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(èÈ«ù
+X
+java:S1854#"=Remove this useless assignment to local variable "numberArr".(¼á¨Åúÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Locale'.(åð×±ûÿÿÿÿ
