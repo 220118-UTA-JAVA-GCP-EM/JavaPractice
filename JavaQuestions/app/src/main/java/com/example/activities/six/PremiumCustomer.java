@@ -6,8 +6,8 @@ public class PremiumCustomer extends Customer implements Premium{
     private int years;
 
 
-    public PremiumCustomer(String name, double balance, String cart, double cartCost) {
-        super(name, balance, cart, cartCost);
+    public PremiumCustomer() {
+        super("Unnamed", 0, "", 0);
     }
 
     public PremiumCustomer(String name, double balance, String cart, double cartCost, int vipCard, int years) {
@@ -18,11 +18,28 @@ public class PremiumCustomer extends Customer implements Premium{
 
     @Override
     public void buy() {
-        c
+        cart = "";
+        balance = 0;
+        cartCost = 0;
     }
 
     @Override
     public double discountPrice(int disc) {
-        return balance*disc/100;
+        double discFactor = disc;
+        discFactor = discFactor/100;
+        balance = balance*(1 - discFactor);
+        return balance;
+    }
+
+    @Override
+    public String toString() {
+        return "PremiumCustomer{" +
+                "name='" + name + '\'' +
+                ", balance=" + balance +
+                ", cart='" + cart + '\'' +
+                ", cartCost=" + cartCost +
+                ", vipCard=" + vipCard +
+                ", years=" + years +
+                '}';
     }
 }

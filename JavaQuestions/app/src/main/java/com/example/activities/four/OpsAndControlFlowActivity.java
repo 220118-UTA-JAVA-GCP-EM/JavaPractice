@@ -54,13 +54,13 @@ public class OpsAndControlFlowActivity {
     public String reverse(String input){
         //Fill out this method to take the input string and return it reserved
         //Do NOT use a temporary variable, do NOT use the reverse() in the StringBuffer or StringBuilder classes
+        StringBuilder sb = new StringBuilder();
 
+        for (int i = input.length()-1; i >=0; i--){
+            sb.append(input.charAt(i));
+        }
 
-
-
-
-
-        return "";
+        return sb.toString();
     }
 
 

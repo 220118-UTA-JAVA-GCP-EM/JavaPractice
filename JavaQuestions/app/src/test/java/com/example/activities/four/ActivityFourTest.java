@@ -44,7 +44,7 @@ public class ActivityFourTest {
         int num = cfa.minOfTwoNumbers(2,3);
         assertNotEquals(3, num);
     }
-/*
+
     @Test
     public void reverseStringTest1(){
         String reversed = cfa.reverse("foobar");
@@ -66,5 +66,5 @@ public class ActivityFourTest {
         assertTrue(!reversed.equals("testing"));
     }
 
-*/
+
 }

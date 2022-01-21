@@ -18,6 +18,7 @@ public abstract class Customer {
 
         cart += item + "\n";
         cartCost += cost;
+        balance += cost;
 
         return cart;
     }

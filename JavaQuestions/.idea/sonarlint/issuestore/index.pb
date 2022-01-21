@@ -11,11 +11,7 @@ u
 Eapp/src/test/java/com/example/activities/three/ActivityThreeTest.java,3\a\3a2b47e1543605fba355779d4830e3350b852314
 s
 Capp/src/main/java/com/example/activities/three/WrapperActivity.java,f\f\ffc99e661e7db4a5e84885f97b9b3d3d8fca0b1b
-|
-Lapp/src/main/java/com/example/activities/four/OpsAndControlFlowActivity.java,e\b\eb7fa2796cdafdf72feff1388937b1561c8f2ceb
 q
 Aapp/src/main/java/com/example/activities/five/ArraysActivity.java,2\6\265fb80bb6dd72d40cb8c18f1cc3eb5258600403
 s
 Capp/src/test/java/com/example/activities/five/ActivityFiveTest.java,b\0\b0564e0f69210809b6230301429cde14e67a4e8d
-s
-Capp/src/test/java/com/example/activities/four/ActivityFourTest.java,1\1\115473c255411dab1b4d702fc73bb60e9ab584c1
