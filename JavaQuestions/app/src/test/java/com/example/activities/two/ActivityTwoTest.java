@@ -6,7 +6,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 //Uncomment the test class to run the tests for this activity
-/*
+
 public class ActivityTwoTest {
 
     public StringsActivity sa = new StringsActivity();

@@ -1,3 +1,4 @@
+/*
 package com.example.activities.three;
 
 import org.junit.Test;
@@ -5,7 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 //Uncomment the test class to run the test for this activity
-/*
+
 public class ActivityThreeTest {
 
     public WrapperActivity wa = new WrapperActivity();
@@ -48,4 +49,3 @@ public class ActivityThreeTest {
 
 
 }
-*/
