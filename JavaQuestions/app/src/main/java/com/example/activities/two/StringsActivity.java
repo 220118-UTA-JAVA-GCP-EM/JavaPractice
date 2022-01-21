@@ -26,14 +26,17 @@ public class StringsActivity {
         }
     }
 
-    String[] splitPhoneNumber(String phone){
+
+    public String[] splitPhoneNumber(String phone){
 
         //Given a normal phone number like this 111-222-3333
         //Use the .split() method to store only the numbers in three indexes of a String array
         //Example -> "111-222-3333" -> [111,222,3333]
         String[] numberArr = new String[3];
-        //numberArr = numberArr.split("-", 4);
-
+        for (int i = 0; i < 3; i++ ) {
+            numberArr = phone.split("-", 4);
+            System.out.println(i + ". set: [" + numberArr[i] + "]");
+        }
 
         return numberArr;
     }

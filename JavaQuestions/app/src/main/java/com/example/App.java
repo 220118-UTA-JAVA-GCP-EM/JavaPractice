@@ -33,5 +33,9 @@ public class App {
             System.out.println("The string does NOT contain the word: " + testWord);
         }
 
+        System.out.println("-------------------");
+
+        sa.splitPhoneNumber("123-456-7890");
+
     }
 }
