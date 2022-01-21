@@ -19,7 +19,3 @@ s
 Capp/src/test/java/com/example/activities/five/ActivityFiveTest.java,b\0\b0564e0f69210809b6230301429cde14e67a4e8d
 s
 Capp/src/test/java/com/example/activities/four/ActivityFourTest.java,1\1\115473c255411dab1b4d702fc73bb60e9ab584c1
-m
-=app/src/main/java/com/example/activities/six/OOPActivicty.txt,c\0\c056f83e5ec84b73deadda180fd3ed95bf8e9e9d
-j
-:app/src/main/java/com/example/activities/six/Customer.java,b\f\bf56b1d7a87a1b5e2cf0435aade88013b4d5700d
