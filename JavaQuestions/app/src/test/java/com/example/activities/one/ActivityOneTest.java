@@ -7,7 +7,7 @@ import static org.junit.Assert.fail;
 
 public class ActivityOneTest {
 
-    /*
+
     @Test
     public void testNoArgs() {
         Foo f = new Foo();
@@ -31,6 +31,6 @@ public class ActivityOneTest {
         }
 
     }
-     */
+
 
 }
