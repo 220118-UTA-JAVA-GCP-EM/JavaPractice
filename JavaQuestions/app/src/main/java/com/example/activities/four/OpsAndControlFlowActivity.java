@@ -14,12 +14,12 @@ public class OpsAndControlFlowActivity {
         //I know this is ugly but I'm just using else if statements over and over again using the modulos operator
         //to see if a number can be divided perfectly to 0. I'm also using a logical operator to see if the input
         //passes both the 5 and 3 for the final test.
-        if(input % 3 == 0){
-            answer = "foo";
+        if(input % 5 == 0 & input % 3 == 0){
+            answer = "buz";
         } else if (input % 5 == 0){
             answer = "bar";
-        } else if (input % 5 == 0 && input % 3 == 0){
-            answer = "buz";
+        } else if (input % 3 == 0){
+            answer = "foo";
         }
 
         return answer;
@@ -49,8 +49,7 @@ public class OpsAndControlFlowActivity {
     public String reverse(String input){
         //Fill out this method to take the input string and return it reserved
         //Do NOT use a temporary variable, do NOT use the reverse() in the StringBuffer or StringBuilder classes
-        //I can't use a temporary variable? :(
-
+        //I can't use a temporary variable? :( IT THAT POSSIBLE.
         return "";
     }
 
