@@ -6,7 +6,6 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 //Uncomment the test class to run the tests for this activity
-/*
 public class ActivityTwoTest {
 
     public StringsActivity sa = new StringsActivity();
@@ -19,13 +18,13 @@ public class ActivityTwoTest {
     }
 
     @Test
-    public void replacAllSpacesTest2() {
+    public void replaceAllSpacesTest2() {
         String replacedSpaces = sa.replaceAllSpaces("It's the end of the world as we know it!");
         assertTrue(replacedSpaces.equals("It's-the-end-of-the-world-as-we-know-it!"));
     }
 
     @Test
-    public void replacAllSpacesTest3() {
+    public void replaceAllSpacesTest3() {
         String replacedSpaces = sa.replaceAllSpaces("And I feel fine!");
         assertTrue(replacedSpaces.equals("And-I-feel-fine!"));
     }
@@ -78,4 +77,3 @@ public class ActivityTwoTest {
     }
 
 }
- */
