@@ -7,3 +7,21 @@ package com.example.activities.one;
 4. Foo should have a public one-arg constructor that sets the value of bar to what ever value is input into the constructor
 5. Foo should have a method called printBar which simply prints the value of your variable bar
 */
+public class Foo {
+    public String bar;
+
+    public Foo() {
+        bar = "bar";
+    }
+
+    public Foo(String s) {
+        bar = s;
+    }
+
+    public void printBar() {
+        System.out.print(bar);
+    }
+    public static void main(String[] args) {
+
+    }
+}
