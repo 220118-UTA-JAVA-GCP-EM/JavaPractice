@@ -9,6 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/JavaQuestions" />
+            <option value="$PROJECT_DIR$/JavaQuestions/app" />
           </set>
         </option>
       </GradleProjectSettings>

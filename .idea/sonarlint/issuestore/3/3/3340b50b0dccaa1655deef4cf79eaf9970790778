@@ -1,0 +1,9 @@
+
+c
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(î™€¾þÿÿÿÿ
+\
+java:S1126"AReplace this if-then-else statement by a single return statement.(Òè”“þÿÿÿÿ
+X
+java:S1854""=Remove this useless assignment to local variable "numberArr".(¼á¨Åúÿÿÿÿ
+y
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "output".(î™€¾þÿÿÿÿ
