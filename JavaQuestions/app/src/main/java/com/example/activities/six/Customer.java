@@ -3,10 +3,10 @@ package com.example.activities.six;
 import java.util.List;
 
 public abstract class Customer {
-    String name;
-    int balance;
-    List<String> cart;
-    int cartCost;
+    public static String name;
+    public static int balance;
+    public static List<String> cart;
+    public static int cartCost;
 
     public Customer(String name, int balance, List<String> cart, int cartCost) {
         this.name = name;
