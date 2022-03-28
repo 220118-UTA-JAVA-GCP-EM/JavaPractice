@@ -1,0 +1,11 @@
+
+H
+java:S14811"&Remove this unused "x" local variable.(¾„ëüÿÿÿÿ8‹ıÕÇú/
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8›ıÕÇú/
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8œıÕÇú/
+9
+java:S1643@"Use a StringBuilder instead.(…Œ®ó8¡ıÕÇú/
+x
+java:S14883"[Immediately return this expression instead of assigning it to the temporary variable "min".(™Ùâí8§ıÕÇú/

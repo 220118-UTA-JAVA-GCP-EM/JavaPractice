@@ -1,15 +1,16 @@
 package com.example.activities.six;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public class PremiumCustomer extends Customer implements Premium {
     private int cardNumber;
-    int years;
+    private int years;
 
     public PremiumCustomer() {
         super();
     }
-    public PremiumCustomer(String name, int balance, List<String> cart, int cartCost, int cardNumber, int years) {
+
+    public PremiumCustomer(String name, int balance, ArrayList<String> cart, ArrayList<Integer> cartCost, int cardNumber, int years) {
         super(name, balance, cart, cartCost);
         this.cardNumber = cardNumber;
         this.years = years;
@@ -23,6 +24,22 @@ public class PremiumCustomer extends Customer implements Premium {
     @Override
     public int discountPrice(int price) {
         return 0;
+    }
+
+    public int getCardNumber() {
+        return cardNumber;
+    }
+
+    public void setCardNumber(int cardNumber) {
+        this.cardNumber = cardNumber;
+    }
+
+    public int getYears() {
+        return years;
+    }
+
+    public void setYears(int years) {
+        this.years = years;
     }
 }
 //3. Create a class called PremiumCustomer that:
@@ -38,7 +55,7 @@ public class PremiumCustomer extends Customer implements Premium {
 //	- implement the discountPrice methods so that the premium user gets a discount
 //	  of 15% on all items in their cart, and sets the balance property
 //
-//    - implement the buy method, which should remove the items from the cart, and reset the balance property
+//   - implement the buy method, which should remove the items from the cart, and reset the balance property
 //
 //	- implement the getters and setters for the premium user
 //
